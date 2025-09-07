@@ -88,6 +88,8 @@ const element3 = (
     </>
 )
 
+// console.log(typeof(element3)); :- Object hain
+
 
 // React Component
 // Function Based Component
@@ -114,7 +116,7 @@ const meetgreet = <>
     {meet()}  
     {greet()}
 
-</>
+</>                        
 MainRoot.render(meetgreet);
 
 
@@ -128,6 +130,6 @@ MainRoot.render(meetgreet);
 // Hum import/export (modules) use karte hain → browser ko directly ye bhi samajh nahi aata (pehle bundle karna padta hai).
 // React aur ReactDOM library alag-alag packages hote hain (npm ke through aate hain) → unhe bundle karke ek hi file banana padta hai.
 // 👉 Isliye humein ek server (Parcel/Vite/Webpack dev server) chahiye hota hai jo:
-// Code ko transpile kare,
+// Code ko transpile kare,          
 // Sab dependencies ko bundle kare,
 // Files ko browser tak serve kare.
