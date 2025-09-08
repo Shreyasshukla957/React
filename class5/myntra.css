@@ -1,0 +1,56 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 11vh;
+    
+}
+
+#logo{
+    height:70px;
+    width: auto;
+    padding-top: 12px;
+    
+}
+
+#card{
+    border-radius: 5px;
+}
+
+#myntrafoot{
+    
+    width: auto;
+    height: 50vh;
+}
+
+#footer{
+    display: flex;
+      align-items: center;
+    justify-content: center;
+}
+
+
+#middle{
+    margin-left: 5vw;
+    margin-right: 5vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.but{
+   background-color: white;
+   border: none;
+    margin: 4px;
+    color: #282c3f;;
+    font-size: 16PX;
+    font-family:'Assistant';
+    font-weight: 600;
+}
