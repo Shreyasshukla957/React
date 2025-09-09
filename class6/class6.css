@@ -1,0 +1,37 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#root{
+    background-color: black;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#All{
+    background-color: white;
+    height: 200px;
+    width: 400px;
+   
+}
+
+button{
+    margin-left: 16%;
+    margin-top: 17%;
+    background-color: rgb(230, 89, 38);
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    width: 100px;
+}
+
+h1{
+    margin-top: 5%;
+    margin-left: 30%;
+}
+
