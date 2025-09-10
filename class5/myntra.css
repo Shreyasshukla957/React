@@ -54,3 +54,13 @@ body{
     font-family:'Assistant';
     font-weight: 600;
 }
+
+#Sort{
+        background-color: rgb(203, 197, 197);
+    border-radius: 12px;
+    margin: 4px;
+    color: #282c3f;;
+    font-size: 16PX;
+    font-family:'Assistant';
+    font-weight: 600;
+}

@@ -9,6 +9,7 @@
       <div style={{ textAlign: "center" }}>
         <h2>{props.cloth}</h2>
         <h1>{props.offer}</h1>
+        <h1>Price: {props.Price}</h1>
         <h2>Shop Now</h2>
       </div>
     </div>

@@ -21,9 +21,9 @@
       <input placeholder="Search for products brands and more"></input>
 
       <div>
-        <button>Profiles</button>
-        <button>Wishlist</button>
-        <button>Bag</button>
+        <button className="but">Profiles</button>
+        <button className="but">Wishlist</button>
+        <button className="but">Bag</button>
       </div>
 
     </div>
