@@ -1,0 +1,24 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+
+}
+
+#root{
+    width: 300px;
+    padding: 20px;
+    background-color: rgb(104, 204, 204);
+    text-align: center;
+}
+
+button{
+    width: 70px;
+    height: 40px;
+    margin: 10px;
+}
