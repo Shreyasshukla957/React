@@ -22,3 +22,21 @@ button{
     height: 40px;
     margin: 10px;
 }
+
+#counter{
+    height: 200px;
+    width: 300px;
+    background-color:rgb(255, 164, 36);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+
+}
+
+button{
+    background-color: rgb(36, 255, 160);
+    border:none;
+    border-radius: 12px;
+    color: white;
+}
