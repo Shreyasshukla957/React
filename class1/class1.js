@@ -1,5 +1,5 @@
 // create element through JS
-
+// styles = { backgroundColor: "blue", color: "white", fontSize: "30px" }
 // React ek Object h yha
 const React = {
     createElement: function (tag, styles, children) {
@@ -15,12 +15,17 @@ const React = {
                 element.innerText = children;
             }
 
+            // let style = Object.entries(styles);
+            // // for-of mein hi destructure hokar loop run ho sakta , yha aise arrays mein object convert hokar run ho paayega 
+            //   for (let [key,value] of style) {
+            //     element.style[key] = value;
+            // }
 
             for (let key in styles) {
-                element.style[key] = styles[key];
+                element.style[key] = styles[key];//styles ki value define kr rha h
             }
 
-            
+            console.log(element);
             return element;
         
 
@@ -74,3 +79,13 @@ ReactDOM.render(ul, document.getElementById("root"));
 // HTML
 // CSS
 // JS
+
+// for (let { key, value } in obj) { } // ❌ for in mein destructre object ko nahi kr sakte h direct for-in loop mein iterate kra sakte h object par 
+
+// for (const [key, value] of Object.entries(obj)) {
+//   // destructuring works here
+// }// for-of mein kyunki directly object par loop run nahi hota h toh issiliye obj ko Object se array kind of structre mein convert krna padta h phir usse destructure krke use kr sakte h.
+// Object.entries(obj);
+// Object.values(obj);
+// Object.keys(obj);
+
