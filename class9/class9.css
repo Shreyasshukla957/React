@@ -1,0 +1,246 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f7faff;
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+}
+
+#header {
+    height: 25vh;
+    width: 100vw;
+    background: radial-gradient(circle at center, #0f7fff 10%, #1d4ed8 60%);
+    font-family: 'Roboto', sans-serif;
+    font-size: 32px;
+    color: #f8fafc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    top: 10px;
+    transition: all 0.3 ease;
+    
+   
+   
+
+
+}
+
+#header:hover{
+
+    box-shadow: 0px 5px 5px 1px rgba(0, 81, 255, 0.1);
+}
+
+#headerspan {
+    transition: all 0.4s ease;
+    margin-left: 10px;
+    border-radius: 50px;
+}
+
+/* 
+#headerspan:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 10px 20px 5px rgba(0, 0, 0, 0.11);
+     cursor:pointer;
+} */
+
+#headerimg{
+    height: 34px;
+    width: 34px;
+   filter: invert(1);
+   transition: all 0.4s ease;
+   border-radius: 10px;
+   color: white;
+    
+}
+
+#icons{
+    color: white;
+}
+
+#headerimg:hover{
+     transform: translateY(-5px);
+      box-shadow: 0px 10px 10px 5px rgba(255, 255, 255, 0.15);
+      cursor:pointer;
+}
+
+
+#search {
+    font-size: 15px;
+
+    height: 40px;
+    width: 100px;
+    border: none;
+    background-color: rgb(37, 161, 255);
+    border-radius: 6px;
+    color: whitesmoke;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    transition: all 0.3s ease;
+
+
+}
+
+#search:hover {
+    transform: scale(1.03);
+    border: 1px;
+    box-shadow: 0 10px 10px 3px rgba(0, 132, 255 , 0.15);
+    cursor:pointer;
+}
+
+#searchhere {
+    height: 40px;
+    width: 210px;
+    margin-left: 30px;
+    margin-right: 30px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+    color: #000000;
+    background-color: #ffffff;
+    box-shadow: 0 0 0 2px rgba(15, 127, 255, 0.5);
+
+}
+
+#searcharea {
+
+    width: 95vw;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#cardsarea {
+
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+
+}
+
+#cardouter {
+
+    margin: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 20px;
+    transition: all 0.3s ease-out;
+
+}
+
+#cardouter:hover {
+
+    transform: scale(1.03);
+    box-shadow: 0 12px 30px rgba(15, 127, 255, 0.45);
+
+
+}
+
+#cardouter #images {
+    height: 100px;
+    width: 100px;
+    overflow: hidden;
+    object-fit: cover;
+    border-radius: 10px;
+
+}
+
+a {
+
+    text-decoration: none;
+}
+
+a:visited {
+
+    color: #0f7fff;
+
+}
+
+
+a:link {
+    color: black;
+}
+
+#gitimg {
+    height: 20px;
+    width: 25px;
+    margin: 2px;
+    transition: all 0.2s ease;
+}
+
+#gitimg:hover {
+
+    transform: scale(1.08);
+
+}
+
+#cardimg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2px;
+}
+
+#cardname {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+
+
+
+/* 
+filter: blur(px);                 
+→ blurs the element (higher px = more blur)
+
+filter: brightness(%);            
+→ increases (>100%) or decreases (<100%) lightness
+
+filter: contrast(%);              
+→ increases (>100%) or decreases (<100%) difference between light & dark
+
+filter: grayscale(%);             
+→ converts colors to grayscale (100% = full black & white)
+
+filter: hue-rotate(deg);          
+→ rotates colors on the color wheel (0–360deg)
+
+filter: invert(%);                
+→ inverts colors (100% = full invert)
+
+filter: opacity(%);               
+→ controls transparency (0% = invisible, 100% = solid)
+
+filter: saturate(%);              
+→ increases (>100%) or decreases (<100%) color intensity
+
+filter: sepia(%);                 
+→ applies brown / vintage tone
+
+filter: drop-shadow(x y blur c);  
+→ adds shadow without affecting layout 
+   (x = horizontal, y = vertical, blur = softness, c = color)
+*/
