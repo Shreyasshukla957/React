@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+#box{
+    background-color: orange;
+    color:white;
+    font-size: 20px;
+    height: 120px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    margin: 20px;
+    
+}
+
+#increment{
+    height:35px ;
+    width: 105px;
+    font-size: 15px;
+    color: black;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    left: 30px;
+    border-radius: 10px;
+
+}
